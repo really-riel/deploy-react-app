@@ -15,14 +15,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 #root {
-  display: grid;
-  grid-template-rows: min-content 1fr;
 }
 .App {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-rows: min-content 1fr;
   height: calc(100vh - 1px);
 
   max-width: 500px;
