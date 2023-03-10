@@ -21,6 +21,7 @@ body {
   justify-content: center;
   align-items: center;
   height: calc(100vh - 1px);
+  height: -webkit-fill-available;
   max-width: 500px;
   border: 1px solid mediumblue;
   margin: auto;
